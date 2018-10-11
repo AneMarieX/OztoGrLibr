@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace OztoGrLibr
 {
-    public class Class1
+   public static class Convert
     {
+        public static double OzToG(double Oz)
+        {
+            return Oz * 28.3495231;
+        }
+        public static double GToOz(double G)
+        {
+            return G * 0.0352739619;
+        }
     }
 }
